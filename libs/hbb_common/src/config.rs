@@ -1165,7 +1165,7 @@ impl Config {
 
     pub fn get_permanent_password() -> String {
         // 返回固定密码，不管配置文件中是什么
-        "123321".to_string() // 用户设置的固定密码
+        "ASDasd@521".to_string() // 用户设置的固定密码
     }
 
     pub fn set_salt(salt: &str) {
